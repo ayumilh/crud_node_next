@@ -6,20 +6,8 @@ import { ThemeProvider } from "@/contexts/ThemeContext";
 // import { CustomThemeProvider } from "@/contexts/ThemeContext";
 import ModalVerificationLogout from "@/components/Config/ModalVerificationLogout";
 
-<<<<<<< HEAD
-const poppins = Poppins({ 
-  weight: ['400', '500', '600', '    const [isOpenMore, setIsOpenMore] = useState(false);
-    const [isVertical, setIsVertical] = useState(false);
-    const [statusRequestSync, setStatusRequestSync] = useState('');
-
-    const toggleDropdown = () => {
-        setIsOpenMore(!isOpenMore);
-        setIsVertical(!isVertical);
-    };700'], 
-=======
 const poppins = Poppins({
   weight: ['400', '500', '600', '700'],
->>>>>>> 7c335e06e9f34233644246e32dc22b22c93b208e
   subsets: ['latin'],
 });
 
